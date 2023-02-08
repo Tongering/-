@@ -5,7 +5,7 @@ class AcGamePlayground {
         
         this.hide();
         this.root.$ac_game.append(this.$playground);
-
+        this.start();
     }
 
     get_random_color() {
